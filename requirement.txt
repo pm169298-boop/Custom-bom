@@ -1,10 +1,2 @@
-# SMS Blast Bot v3.2 Premium — Python dependencies
-# Python 3.10+ required (3.11 / 3.12 / 3.13 / 3.14 sab kaam karengi)
-#
-# Install:
-#   python3 -m venv .venv
-#   .venv/bin/pip install -r requirements.txt
-#   .venv/bin/python blast_bot_v3.2_premium.py
-
 aiogram>=3.20,<4
 aiohttp>=3.9
