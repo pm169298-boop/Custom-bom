@@ -1717,7 +1717,7 @@ async def cmd_start_deep(msg: Message, state: FSMContext):
         await msg.answer(force_join_text(missing), reply_markup=force_join_kb(missing), parse_mode="HTML", disable_web_page_preview=True)
         return
 
-    await send_random_video(msg.bot, msg.chat.id, caption=f"{em(EMOJI_ROCKET, '🚀')} Welcome to SMS Blast Bot!\nOwner: {SUPER_ADMIN_NAME}\nManager: @Titanium_Ansh")
+    await send_random_video(msg.bot, msg.chat.id, caption=f"{em(EMOJI_ROCKET, '🚀')} Welcome to SMS Blast Bot!\nOwner: {SUPER_ADMIN_NAME}\nManager: @DroidDeveloper")
 
     if is_owner(uid, d):
         await msg.answer(owner_panel_text(d), reply_markup=owner_kb(d), parse_mode="HTML")
